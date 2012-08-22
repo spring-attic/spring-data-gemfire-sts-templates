@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<descriptors>
+	<descriptor
+		id="org.springframework.data.gemfire.template.standalone"
+		name="Spring Data GemFire Project (Standalone)"
+		kind="template"
+		category="GemFire"
+                local="false"
+		requires="3.0.0"
+		size="12200"
+		url="https://raw.github.com/SpringSource/spring-data-gemfire-sts-templates/master/builds/gemfire-standalone-sts-template-1.0.0.M1.zip">
+		version="1.0.0.M1">
+		<description>
+			Creates a Spring Data GemFire project with an embedded cache and one region that runs as a standalone Java
+application.
+		</description>
+	</descriptor>
+        <descriptor
+		id="org.springframework.data.gemfire.template.server.standalone"
+		name="Spring Data GemFire Cache Server Project (Standalone)"
+		kind="template"
+		category="GemFire"
+		version="1.0.0.M1"
+                size="9900"
+		category="GemFire"
+		url="https://raw.github.com/SpringSource/spring-data-gemfire-sts-templates/master/builds/gemfire-server-sts-template-1.0.0.M1.zip">
+		<description>
+			Creates a Gemfire Cache Server project with a cache server, embedded cache and one region that runs as a standalone Java application.
+		</description>
+	</descriptor>
+        <descriptor
+		id="org.springframework.data.gemfire.template.server.war"
+		name="Spring Data GemFire Cache Server Project (WAR)"
+		kind="template"
+		category="GemFire"
+		version="1.0.0.M1"
+                local="false"
+		requires="3.0.0"
+		size="61000"
+		url="https://raw.github.com/SpringSource/spring-data-gemfire-sts-templates/master/builds/gemfire-server-war-sts-template-1.0.0.M1.zip"
+>
+		<description>
+			Creates a Gemfire Cache Server project with a cache server, embedded cache and one region that runs as a web application.
+		</description>
+	</descriptor>
+         <descriptor
+		id="org.springframework.data.gemfire.template.client"
+		name="Spring Data GemFire Client Project"
+		kind="template"
+		category="GemFire"
+		version="1.0.0.M1"
+                local="false"
+		requires="3.0.0"
+		size="117000"
+		url="https://raw.github.com/SpringSource/spring-data-gemfire-sts-templates/master/builds/gemfire-client-sts-template-1.0.0.M1.zip"
+>
+		<description>
+			Creates a Spring Data GemFire project with a client cache and client region that runs as a standalone Java application.
+		</description>
+	</descriptor>
+</descriptors>
