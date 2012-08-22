@@ -1,0 +1,84 @@
+{
+	"info" : {
+		"elements" : {
+			"element" :	[
+				{
+					"name" : "mavenGroupId",
+					"description" : "Please enter a 'groupId'",
+					"type" : "java.lang.String",
+					"page" : 0,
+					"required" : true,
+				},
+				{
+					"name" : "mavenArtifactId",
+					"description" : "Please enter an 'artifactId'",
+					"type" : "java.lang.String",
+					"page" : 0,
+					"required" : true,
+				},
+				{
+					"name" : "mavenVersion",
+					"description" : "Please enter a version e.g. '1.0.0.BUILD-SNAPSHOT'",
+					"defaultValue": "1.0.0.BUILD-SNAPSHOT",
+					"type" : "java.lang.String",
+					"page" : 0,
+					"required" : true,
+				},
+				{
+					"name" : "topLevelPackage",
+					"description" : "Please specify the top-level package e.g. com.mycompany.myapp",
+					"type" : "java.lang.String",
+					"page" : 0,
+					"required" : true,
+					"pattern" : "\\w+(\\.\\w+)*",
+					"replaceKind" : "topLevelPackage"
+				},
+				{
+					"name" : "regionName",
+					"description" : "Please specify a client region name (should match a region on a cache server)",
+					"type" : "java.lang.String",
+					"page" : 0,
+					"required" : true,
+					"defaultValue" : "myRegion"
+				},
+				{
+					"name" : "environmentProfileName",
+					"description" : "Please specify how the client should connect ('server' or 'locator')",
+					"type" : "java.lang.String",
+					"page" : 0,
+					"required" : true,
+					"defaultValue" : "server"
+				},
+				{
+					"name" : "gemfireHost",
+					"description" : "Please specify the server or locator host name",
+					"type" : "java.lang.String",
+					"page" : 0,
+					"required" : true,
+					"defaultValue" : "localhost"
+				},
+				{
+					"name" : "gemfirePort",
+					"description" : "Please specify the server or locator port",
+					"type" : "java.lang.Integer",
+					"page" : 0,
+					"required" : true,
+					"defaultValue":40404
+				},
+				
+				
+				
+			]
+		},
+			"topLevelPackage" : "stsspringframeworkdatagemfire",
+			"projectName" : "spring-data-gemfire-client-template",
+			"pages" : {
+			"page" : [
+				{
+					"order" : 0,
+					"description" : "Project Settings"
+				}
+			]
+		}
+	}
+}

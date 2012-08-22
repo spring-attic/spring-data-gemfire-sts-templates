@@ -1,0 +1,14 @@
+<template>
+	<descriptor
+		id="org.springframework.data.gemfire.template.server.war"
+		name="Spring Data GemFire Cache Server Project (WAR)"
+		kind="template"
+		category="${template.category}"
+		version="${template.version}">
+		<description>
+			Creates a Gemfire Cache Server project with a cache server, embedded cache and one region that runs as a web application.
+		</description>
+	</descriptor>
+	<project path="" />
+	<json path="wizard.json" />
+</template>

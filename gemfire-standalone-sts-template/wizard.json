@@ -1,0 +1,65 @@
+{
+	"info" : {
+		"elements" : {
+			"element" :	[
+				{
+					"name" : "mavenGroupId",
+					"description" : "Please enter a 'groupId'",
+					"type" : "java.lang.String",
+					"page" : 0,
+					"required" : true,
+				},
+				{
+					"name" : "mavenArtifactId",
+					"description" : "Please enter an 'artifactId'",
+					"type" : "java.lang.String",
+					"page" : 0,
+					"required" : true,
+				},
+				{
+					"name" : "mavenVersion",
+					"description" : "Please enter a version e.g. '1.0.0.BUILD-SNAPSHOT'",
+					"defaultValue": "1.0.0.BUILD-SNAPSHOT",
+					"type" : "java.lang.String",
+					"page" : 0,
+					"required" : true,
+				},
+				{
+					"name" : "topLevelPackage",
+					"description" : "Please specify the top-level package e.g. com.mycompany.myapp",
+					"type" : "java.lang.String",
+					"page" : 0,
+					"required" : true,
+					"pattern" : "\\w+(\\.\\w+)*",
+					"replaceKind" : "topLevelPackage"
+				},
+				{
+					"name" : "regionName",
+					"description" : "Please specify a region name",
+					"type" : "java.lang.String",
+					"page" : 0,
+					"required" : true,
+					"defaultValue" : "myRegion"
+				},
+				{
+					"name" : "regionType",
+					"description" : "Please specify a region type (local,replicated, or partitioned)",
+					"type" : "java.lang.String",
+					"page" : 0,
+					"required" : true,
+					"defaultValue" : "local"
+				}
+			]
+		},
+			"topLevelPackage" : "stsspringframeworkdatagemfire",
+			"projectName" : "spring-data-gemfire-standalone-template",
+			"pages" : {
+			"page" : [
+				{
+					"order" : 0,
+					"description" : "Project Settings"
+				}
+			]
+		}
+	}
+}

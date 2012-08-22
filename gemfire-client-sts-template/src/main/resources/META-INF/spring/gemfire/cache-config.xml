@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:gfe="http://www.springframework.org/schema/gemfire"
+	xsi:schemaLocation="http://www.springframework.org/schema/gemfire http://www.springframework.org/schema/gemfire/spring-gemfire.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<gfe:client-cache pool-name="gemfirePool"/>
+	
+	<gfe:client-region id="regionName" pool-name="gemfirePool">
+		<gfe:cache-listener>
+			<bean class="stsspringframeworkdatagemfire.LoggingCacheListener"/>
+		</gfe:cache-listener>
+	</gfe:client-region>
+	
+	<beans profile="locator">
+		<gfe:pool id="gemfirePool">
+			<gfe:locator host="gemfireHost" port="gemfirePort"/>
+		</gfe:pool>
+	</beans>
+	
+	<beans profile="server">
+		<gfe:pool id="gemfirePool">
+			<gfe:server host="gemfireHost" port="gemfirePort"/>
+		</gfe:pool>
+	</beans>
+	
+</beans>

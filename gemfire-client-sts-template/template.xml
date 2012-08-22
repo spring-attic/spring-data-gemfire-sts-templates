@@ -1,0 +1,14 @@
+<template>
+	<descriptor
+		id="org.springframework.data.gemfire.template.client"
+		name="Spring Data GemFire Client Project"
+		kind="template"
+		category="${template.category}"
+		version="${template.version}">
+		<description>
+			Creates a Spring Data GemFire project with a client cache and client region that runs as a standalone Java application.
+		</description>
+	</descriptor>
+	<project path="" />
+	<json path="wizard.json" />
+</template>
