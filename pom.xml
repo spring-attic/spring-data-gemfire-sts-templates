@@ -28,10 +28,10 @@
 		<template.version>${project.version}</template.version>
 		<template.category>GemFire</template.category>
 
-		<gemfire.template.standalone.size>12200</gemfire.template.standalone.size>
-		<gemfire.template.server.size>9900</gemfire.template.server.size>
-		<gemfire.template.server.war.size>61000</gemfire.template.server.war.size>
-		<gemfire.template.client.size>117000</gemfire.template.client.size>
+		<gemfire.template.standalone.size>7467</gemfire.template.standalone.size>
+		<gemfire.template.server.size>7582</gemfire.template.server.size>
+		<gemfire.template.server.war.size>7543</gemfire.template.server.war.size>
+		<gemfire.template.client.size>7881</gemfire.template.client.size>
 
 	</properties>
 

@@ -1,61 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <descriptors>
-	<descriptor
-		id="org.springframework.data.gemfire.template.standalone"
-		name="Spring Data GemFire Project (Standalone)"
-		kind="template"
-		category="${template.category}"
-                local="false"
-		requires="3.0.0"
-		size="${gemfire.template.standalone.size}"
+	<descriptor id="org.springframework.data.gemfire.template.standalone"
+		name="Spring Data GemFire Project (Standalone)" kind="template"
+		category="${template.category}" local="false" requires="[3.0.0,3.1)"
+		version="${template.version}" size="${gemfire.template.standalone.size}"
 		url="${base.location}/gemfire-standalone-sts-template-${template.version}.zip">
-		version="${template.version}">
 		<description>
-			Creates a Spring Data GemFire project with an embedded cache and one region that runs as a standalone Java
-application.
+			Creates a Spring Data GemFire project with an embedded
+			cache and one region that runs as a standalone Java
+			application.
 		</description>
 	</descriptor>
-        <descriptor
-		id="org.springframework.data.gemfire.template.server.standalone"
-		name="Spring Data GemFire Cache Server Project (Standalone)"
-		kind="template"
-		category="${template.category}"
-		version="${template.version}"
-                size="${gemfire.template.server.size}"
-		category="${template.category}"
+	<descriptor
+		id="org.springframework.data.gemfire.template.server.standalone" name="Spring Data GemFire Cache Server Project (Standalone)"
+		kind="template" category="${template.category}" local="false"
+		requires="[3.0.0,3.1)" version="${template.version}" size="${gemfire.template.server.size}"
 		url="${base.location}/gemfire-server-sts-template-${template.version}.zip">
 		<description>
-			Creates a Gemfire Cache Server project with a cache server, embedded cache and one region that runs as a standalone Java application.
+			Creates a Gemfire Cache Server project with a cache
+			server, embedded cache and one region that runs as a standalone Java
+			application.
 		</description>
 	</descriptor>
-        <descriptor
-		id="org.springframework.data.gemfire.template.server.war"
-		name="Spring Data GemFire Cache Server Project (WAR)"
-		kind="template"
-		category="${template.category}"
-		version="${template.version}"
-                local="false"
-		requires="3.0.0"
-		size="${gemfire.template.server.war.size}"
-		url="${base.location}/gemfire-server-war-sts-template-${template.version}.zip"
->
+	<descriptor id="org.springframework.data.gemfire.template.server.war"
+		name="Spring Data GemFire Cache Server Project (WAR)" kind="template"
+		category="${template.category}" local="false" requires="[3.0.0,3.1)"
+		version="${template.version}" size="${gemfire.template.server.war.size}"
+		url="${base.location}/gemfire-server-war-sts-template-${template.version}.zip">
 		<description>
-			Creates a Gemfire Cache Server project with a cache server, embedded cache and one region that runs as a web application.
+			Creates a Gemfire Cache Server project with a cache
+			server, embedded cache and one region that runs as a web application.
 		</description>
 	</descriptor>
-         <descriptor
-		id="org.springframework.data.gemfire.template.client"
-		name="Spring Data GemFire Client Project"
-		kind="template"
-		category="${template.category}"
-		version="${template.version}"
-                local="false"
-		requires="3.0.0"
+	<descriptor id="org.springframework.data.gemfire.template.client"
+		name="Spring Data GemFire Client Project" kind="template" category="${template.category}"
+		local="false" requires="[3.0.0,3.1)" version="${template.version}"
 		size="${gemfire.template.client.size}"
-		url="${base.location}/gemfire-client-sts-template-${template.version}.zip"
->
+		url="${base.location}/gemfire-client-sts-template-${template.version}.zip">
 		<description>
-			Creates a Spring Data GemFire project with a client cache and client region that runs as a standalone Java application.
+			Creates a Spring Data GemFire project with a client cache
+			and client region that runs as a standalone Java application.
 		</description>
 	</descriptor>
 </descriptors>
