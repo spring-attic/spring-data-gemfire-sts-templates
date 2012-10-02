@@ -2,7 +2,7 @@
 <descriptors>
 	<descriptor id="org.springframework.data.gemfire.template.standalone"
 		name="Spring Data GemFire Project (Standalone)" kind="template"
-		category="${template.category}" local="false" requires="[3.0.0,3.1)"
+		category="${template.category}" local="false" requires="${template.requires.version}"
 		version="${template.version}" size="${gemfire.template.standalone.size}"
 		url="${base.location}/gemfire-standalone-sts-template-${template.version}.zip">
 		<description>
@@ -14,7 +14,7 @@
 	<descriptor
 		id="org.springframework.data.gemfire.template.server.standalone" name="Spring Data GemFire Cache Server Project (Standalone)"
 		kind="template" category="${template.category}" local="false"
-		requires="[3.0.0,3.1)" version="${template.version}" size="${gemfire.template.server.size}"
+		requires="${template.requires.version}" version="${template.version}" size="${gemfire.template.server.size}"
 		url="${base.location}/gemfire-server-sts-template-${template.version}.zip">
 		<description>
 			Creates a Gemfire Cache Server project with a cache
@@ -24,7 +24,7 @@
 	</descriptor>
 	<descriptor id="org.springframework.data.gemfire.template.server.war"
 		name="Spring Data GemFire Cache Server Project (WAR)" kind="template"
-		category="${template.category}" local="false" requires="[3.0.0,3.1)"
+		category="${template.category}" local="false" requires="${template.requires.version}"
 		version="${template.version}" size="${gemfire.template.server.war.size}"
 		url="${base.location}/gemfire-server-war-sts-template-${template.version}.zip">
 		<description>
@@ -34,7 +34,7 @@
 	</descriptor>
 	<descriptor id="org.springframework.data.gemfire.template.client"
 		name="Spring Data GemFire Client Project" kind="template" category="${template.category}"
-		local="false" requires="[3.0.0,3.1)" version="${template.version}"
+		local="false" requires="${template.requires.version}" version="${template.version}"
 		size="${gemfire.template.client.size}"
 		url="${base.location}/gemfire-client-sts-template-${template.version}.zip">
 		<description>
