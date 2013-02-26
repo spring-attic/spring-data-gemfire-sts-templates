@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.springframework.data.gemfire.sts.templates</groupId>
 	<artifactId>spring-data-gemfire-sts-templates</artifactId>
-	<version>1.0.0.M1</version>
+	<version>1.0.0.RELEASE</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>

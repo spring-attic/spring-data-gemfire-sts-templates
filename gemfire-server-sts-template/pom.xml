@@ -6,7 +6,7 @@
   <name>spring-data-gemfire-server-template</name>
   <description>Standalone Gemfire Server</description>
   <properties>
-  	<spring.data.gemfire.version>1.2.0.RELEASE</spring.data.gemfire.version>
+  	<spring.data.gemfire.version>1.2.1.RELEASE</spring.data.gemfire.version>
   	<slf4j.version>1.6.6</slf4j.version>
   	<log4j.version>1.2.16</log4j.version>
   </properties>
