@@ -4,6 +4,7 @@
 		name="Spring Data GemFire Cache Server Project (WAR)"
 		kind="template"
 		category="${template.category}"
+		requiresbundle="${template.requires.bundles}"
 		version="${template.version}">
 		<description>
 			Creates a Gemfire Cache Server project with a cache server, embedded cache and one region that runs as a web application.

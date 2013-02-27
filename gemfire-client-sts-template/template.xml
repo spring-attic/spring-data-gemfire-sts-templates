@@ -4,6 +4,7 @@
 		name="Spring Data GemFire Client Project"
 		kind="template"
 		category="${template.category}"
+		requiresbundle="${template.requires.bundles}"
 		version="${template.version}">
 		<description>
 			Creates a Spring Data GemFire project with a client cache and client region that runs as a standalone Java application.
