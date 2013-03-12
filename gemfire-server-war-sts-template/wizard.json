@@ -60,7 +60,7 @@
 				
 			]
 		},
-			"topLevelPackage" : "stsspringframeworkdatagemfire",
+			"topLevelPackage" : "stsspringframeworkdatagemfire",			
 			"projectName" : "spring-data-gemfire-war-server-template",
 			"pages" : {
 			"page" : [
