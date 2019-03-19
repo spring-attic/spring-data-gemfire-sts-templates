@@ -68,7 +68,7 @@
 		<repository>
 		<id>repo.springsource.org.plugins.release</id>
 			<name>Spring Framework Dependencies Repository</name>
-			<url>http://repo.springsource.org/plugins-release</url>
+			<url>https://repo.springsource.org/plugins-release</url>
 		</repository>
 	</repositories>
 
