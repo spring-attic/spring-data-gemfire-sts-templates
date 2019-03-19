@@ -14,5 +14,5 @@ You can run the application by either
 
 For help please take a look at the Spring Data Gemfire documentation:
 
-http://www.springsource.org/spring-gemfire
+https://spring.io/projects/spring-data-gemfire
 
