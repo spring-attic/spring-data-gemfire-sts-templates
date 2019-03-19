@@ -46,7 +46,7 @@
 				<plugins>
 					<plugin>
 						<artifactId>maven-assembly-plugin</artifactId>
-						<version>2.2.1</version>
+						<version>3.1.1</version>
 						<executions>
 							<execution>
 								<id>make-template-descriptor-assembly</id>
@@ -78,7 +78,7 @@
 				<plugins>
 					<plugin>
 						<artifactId>maven-assembly-plugin</artifactId>
-						<version>2.2.1</version>
+						<version>3.1.1</version>
 						<executions>
 							<execution>
 								<id>make-standalone-template</id>
@@ -109,7 +109,7 @@
 				<plugins>
 					<plugin>
 						<artifactId>maven-assembly-plugin</artifactId>
-						<version>2.2.1</version>
+						<version>3.1.1</version>
 						<executions>
 							<execution>
 								<id>make-server-template</id>
@@ -140,7 +140,7 @@
 				<plugins>
 					<plugin>
 						<artifactId>maven-assembly-plugin</artifactId>
-						<version>2.2.1</version>
+						<version>3.1.1</version>
 						<executions>
 							<execution>
 								<id>make-war-template</id>
@@ -171,7 +171,7 @@
 				<plugins>
 					<plugin>
 						<artifactId>maven-assembly-plugin</artifactId>
-						<version>2.2.1</version>
+						<version>3.1.1</version>
 						<executions>
 							<execution>
 								<id>make-client-template</id>
