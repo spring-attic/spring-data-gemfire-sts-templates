@@ -1,4 +1,6 @@
-Spring Data GemFire Templates
+# spring-data-gemfire-sts-templates is no longer actively maintained by VMware, Inc.
+
+Spring Data GemFire Templates 
 =============================
 
 This repository contains templates and plugins that will help you to get Spring Data GemFire projects off the ground quickly. For right now the following sub-projects exist:
